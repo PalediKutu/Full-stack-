@@ -1,0 +1,86 @@
+### Add Paledi Kutu
+POST http://localhost:3000/api/employees/add
+Content-Type: application/json
+
+{
+  "name": "Paledi",
+  "surname": "Kutu",
+  "gender": "Male",
+  "department": "Engineering",
+  "salary": 50000
+}
+
+### Add Kele Zitha
+POST http://localhost:3000/api/employees/add
+Content-Type: application/json
+
+{
+  "name": "Kele",
+  "surname": "Zitha",
+  "gender": "Female",
+  "department": "Marketing",
+  "salary": 60000
+}
+
+### Add Chris Brown
+POST http://localhost:3000/api/employees/add
+Content-Type: application/json
+
+{
+  "name": "Chris",
+  "surname": "Brown",
+  "gender": "Male",
+  "department": "Finance",
+  "salary": 55000
+}
+
+### Add Emily Davis
+POST http://localhost:3000/api/employees/add
+Content-Type: application/json
+
+{
+  "name": "Chantel",
+  "surname": "pray",
+  "gender": "Female",
+  "department": "Engineering",
+  "salary": 65000
+}
+
+### Add Anna Wilson
+POST http://localhost:3000/api/employees/add
+Content-Type: application/json
+
+{
+  "name": "Didi",
+  "surname": "peloyaka",
+  "gender": "Female",
+  "department": "Marketing",
+  "salary": 62000
+}
+
+### Get All Employees
+GET http://localhost:3000/api/employees/view
+Content-Type: application/json
+
+### Get Employees by Department - Engineering
+GET http://localhost:3000/api/employees/Engineering
+Content-Type: application/json
+
+### Get Employees by Department - Marketing
+GET http://localhost:3000/api/employees/Marketing
+Content-Type: application/json
+
+### Get Employees by Department - Finance
+GET http://localhost:3000/api/employees/Finance
+Content-Type: application/json
+
+### Update John Doe's Salary
+PUT http://localhost:3000/api/employees/666897f59c3b74f3b0478ce7
+Content-Type: application/json
+
+{
+  "salary": 75225
+}
+### Delete Employee - John Doe
+DELETE http://localhost:3000/api/employees/666897f59c3b74f3b0478ce7
+Content-Type: application/json
